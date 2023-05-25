@@ -23,6 +23,9 @@ body {
     margin: 0 auto;
 }
 
+img{
+    width: 100%;
+}
 
 
 
@@ -33,11 +36,47 @@ body {
 
 .left-header{
     background-color: black;
-    color: white;
+    color: lightgray;
     width: 12.5rem;
     height: calc(100vh - 6.25rem);
     display: flex;
     flex-direction: column;
+}
+
+.logo img{
+    width: 70%;
+    margin-top: .625rem;
+    margin-left: 1.25rem;
+}
+
+.nav-side{
+    margin-top: 1.25rem;
+}
+
+.nav-side ul{
+    list-style: none;
+}
+
+.nav-side ul li{
+    margin-left: 1.25rem;
+    padding-bottom: .625rem;
+    
+}
+
+.nav-side ul li img{
+    width: 15%;
+    vertical-align: middle;
+}
+
+.nav-side ul li div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.playlist-side{
+    margin-top: 20px ;
+    margin-left: 1.25rem;
 }
 
 
