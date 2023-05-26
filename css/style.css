@@ -75,9 +75,26 @@ img{
 
 
 .playlist-side{
-    margin-top: 20px ;
+    margin-top: 1.25rem ;
     margin-left: 1.25rem;
 }
+
+.playlist-side ul li{
+    list-style: none;
+    padding-top: .9375rem;
+    
+}
+
+.playlist-side ul li div i{
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+
+.playlist-side ul li div span{
+    vertical-align: middle;
+}
+
 
 
 
