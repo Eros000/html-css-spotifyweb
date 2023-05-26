@@ -36,7 +36,7 @@ img{
 
 .left-header{
     background-color: black;
-    color: lightgray;
+    color: rgb(167, 166, 166);
     width: 12.5rem;
     height: calc(100vh - 6.25rem);
     display: flex;
@@ -63,6 +63,7 @@ img{
     
 }
 
+
 .nav-side ul li img{
     width: 15%;
     vertical-align: middle;
@@ -71,6 +72,15 @@ img{
 .nav-side ul li div{
     display: inline-block;
     vertical-align: middle;
+}
+
+.nav-side ul li div a{
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+.nav-side ul li div a:hover{
+    color: white;
 }
 
 
@@ -82,8 +92,17 @@ img{
 .playlist-side ul li{
     list-style: none;
     padding-top: .9375rem;
-    
 }
+
+.playlist-side ul li a{
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+.playlist-side ul li a:hover{
+    color: white;
+}
+    
 
 .playlist-side ul li div i{
     font-size: 40px;
@@ -93,6 +112,15 @@ img{
 
 .playlist-side ul li div span{
     vertical-align: middle;
+}
+
+.playlist-side ul li div span a{
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+.playlist-side ul li div span a:hover{
+    color: white;
 }
 
 
