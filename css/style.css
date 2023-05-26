@@ -105,7 +105,7 @@ img{
     
 
 .playlist-side ul li div i{
-    font-size: 40px;
+    font-size: 2.5rem;
     vertical-align: middle;
 }
 
@@ -121,6 +121,22 @@ img{
 
 .playlist-side ul li div span a:hover{
     color: white;
+}
+
+.header-bottom{
+    margin-top: 4.375rem;
+}
+
+.header-bottom-1{
+    margin-left: 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.header-bottom hr{
+    margin-top: .625rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+
 }
 
 
