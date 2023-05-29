@@ -226,11 +226,153 @@ img{
 footer{
     position: relative;
 }
-.play-bar{
+.playing-bar{
     background-color: rgb(61, 61, 65);
     width:100vw;
-    height: 6.25rem
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.music-playing{
+    width: 20%;
+    display: flex;
+}
+
+.music-playing-1{
+    margin-left: .625rem;
+}
+
+.music-playing-1 img{
+    width: 15%;
+    vertical-align: middle;
+}
+
+.music-playing-1-title{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: .625rem;
+}
+
+.music-playing-1-title h5{
+    color: white;
+}
+
+.music-playing-1-title div{
+    color: rgb(167, 166, 166);
+}
+
+
+.music-playing-interaction{
+    display: inline-block;
+    color: rgb(167, 166, 166);
+    margin-left: 1.5625rem;
+    vertical-align: middle;
+
+}
+
+.music-playing-interaction i{
+    padding-left: .625rem;
+}
+
+.music-playing-interaction i:hover{
+    color: white;
+}
+
+
+.dashboard{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.dashboard-top{
+    color: white;
+    font-size: 1.5625rem;
+}
+
+.dashboard-top i{
+    padding: 0 1.25rem;
+}
+
+.dashboard-bottom{
+    margin-top: 0.625rem;
+    display: flex;
+    align-items: center;
+}
+
+.timing-bar{
+    background-color: rgb(167, 166, 166);
+    height: .25rem;
+    width: 35vw;
+    border-radius: .0625rem;
+}
+
+.timing-bar-1{
+    background-color: white;
+    height: .25rem;
+    width: 15%;
+}
+
+.timing-bar-1:hover{
+    background-color: rgb(35, 189, 35);
+}
+    
+.time-passed{
+    color: white;
+    font-size: small;
+    padding-right: .625rem;
+}
+
+.remaining-time{
+    color: white;
+    font-size: small;
+    padding-left: .625rem;
+}
+
+
+
+
+
+
+
+.settings{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0.625rem;
+    
+}
+
+.settings i{
+    color:white;
+    padding: 0 .9375rem;
+    font-size: small;
+
+}
+
+.settings-volume{
+    background-color: rgb(167, 166, 166);
+    height: 0.25rem;
+    width: 6.25rem;
+    
+}
+
+.settings-volume div{
+    background-color: white;
+    height: 0.25rem;
+    width: 30%;
+    
+}
+
+
+
+
+
+
 
 
 
