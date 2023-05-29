@@ -197,6 +197,7 @@ img{
     MAIN
 */
 
+
 .main-side{
     background-color: rgb(13, 13, 27);
     width: calc(100vw - 12.5rem);
@@ -204,15 +205,58 @@ img{
     overflow-y: auto;
 }
 
+/*upgrade-bar*/
+
 .upgrade-bar{
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1.25rem;
     text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.upgrade-bar div{
+    padding-right: .3125rem;
+}
 
+.upgrade-bar div button{
+    color: white;
+    background-color: transparent;
+    border: .125rem solid white;
+    border-radius: 1.25rem;
+    padding: .625rem 1.5625rem;
+}
+
+/*header-main*/
+
+.selection-bar{
+    margin: .625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selection-bar a{
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+    padding: 0 1.25rem;
+    font-weight: 700;
+}
+
+.selection-bar a:hover{
+    color: white;
+    
+}
+
+/*first section*/
+
+.recently-played{
+    margin-top: 2.5rem;
+    margin-left: 1.25rem;
+    color: white;
+}
 
 
 
@@ -331,10 +375,6 @@ footer{
     font-size: small;
     padding-left: .625rem;
 }
-
-
-
-
 
 
 
