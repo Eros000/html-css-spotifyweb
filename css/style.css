@@ -84,10 +84,15 @@ img{
 }
 
 
+
+
 .playlist-side{
     margin-top: 1.25rem ;
     margin-left: 1.25rem;
+    flex-grow: 1;
+    overflow: auto;
 }
+
 
 .playlist-side ul li{
     list-style: none;
@@ -124,7 +129,7 @@ img{
 }
 
 .header-bottom{
-    margin-top: 4.375rem;
+    margin-top: 5.625rem;
 }
 
 .header-bottom-1{
@@ -132,12 +137,55 @@ img{
     margin-top: 1.875rem;
 }
 
+.header-bottom-1 div{
+    display: inline-block;
+
+}
+
+.header-bottom-1 div a{
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+.header-bottom-1 div a:hover{
+    color: white;
+}
+
+
+
 .header-bottom hr{
     margin-top: .625rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
 
 }
+
+.header-bottom-2{
+    margin-left: 1.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: .625rem;
+}
+
+.header-bottom-2 div{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.header-bottom-2 div:first-child{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.header-bottom-2 div img{
+    width: 70%;
+
+}
+
 
 
 
@@ -153,7 +201,18 @@ img{
     background-color: rgb(13, 13, 27);
     width: calc(100vw - 12.5rem);
     height: calc(100vh - 6.25rem);
+    overflow-y: auto;
 }
+
+.upgrade-bar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.25rem;
+    text-align: right;
+}
+
+
 
 
 
@@ -164,13 +223,16 @@ img{
 /* 
     FOOTER
 */
-
+footer{
+    position: relative;
+}
 .play-bar{
     background-color: rgb(61, 61, 65);
     width:100vw;
     height: 6.25rem
-
 }
+
+
 
 
 
