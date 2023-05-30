@@ -49,6 +49,10 @@ img{
     margin-left: 1.25rem;
 }
 
+.logo-small{
+    display: none;
+}
+
 .nav-side{
     margin-top: 1.25rem;
 }
@@ -255,7 +259,93 @@ img{
 .recently-played{
     margin-top: 2.5rem;
     margin-left: 1.25rem;
+}
+
+.recently-played h2{
     color: white;
+}
+
+.recently-played-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recently-played-col{
+    margin-top: 1.875rem;
+    width: calc((100% / 6));
+    text-align: center;
+    padding: 0 .625rem;
+    
+    
+    
+}
+
+.recently-played-col img{
+    width: 10.625rem;
+    height: 10.625rem;
+    
+}
+
+.recently-played h3{
+    color: white;
+    margin-top: .625rem;
+
+}
+
+.recently-played h5{
+    color: rgb(167, 166, 166);
+    margin-top: .625rem;
+    
+}
+
+
+/*second + third section*/
+
+
+.created-list{
+    margin-top: 2.5rem;
+    margin-left: 1.25rem;
+}
+
+.created-list h2{
+    color: white;
+}
+
+.created-list h5{
+    color: rgb(167, 166, 166);
+    margin-top: .625rem;
+    
+}
+.created-list-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.created-list-col{
+    margin-top: 1.875rem;
+    width: calc(100% / 6);
+    text-align: center;
+    
+}
+
+.created-list-col img{
+    width: 10.625rem;
+    height: 10.625rem;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+
+.created-list h3{
+    color: white;
+    margin-top: .625rem;
+
+}
+
+.most-popular{
+    margin-bottom: 3.125rem;
 }
 
 
@@ -423,3 +513,104 @@ footer{
 /* 
     RESPONSIVE
 */
+
+/*TABLET*/
+
+@media screen and (max-width: 1100px){
+
+    .recently-played-col{
+        
+        width: calc(100% / 4);
+          
+    }
+
+    .created-list-col{
+
+        width: calc(100% / 4);
+        
+    }
+}
+
+
+
+
+
+
+/*MOBILE*/
+
+@media screen and (max-width: 700px){
+
+    .recently-played-col{
+        
+        width: calc(100% / 2);
+          
+    }
+
+
+    .created-list-col{
+
+        width: calc(100% / 2);
+        
+    }
+
+}
+
+
+
+
+
+
+/*MOBILE-PICCOLO*/
+
+@media screen and (max-width: 600px){
+
+    .logo{
+        display: none;
+    }
+
+    .logo-small{
+        display: block;
+    }
+    
+    .logo-small img{
+        width: 70%;
+        margin-top: .625rem;
+        margin-left: 1.25rem;
+    }
+
+    .nav-side a{
+        display: none;
+    }
+    
+    .playlist-side{
+        display: none;
+    }
+
+    .header-bottom-1 a{
+        display: none;
+    }
+
+    .header-bottom-2 div strong{
+        display: none;
+    }
+
+    .left-header{
+        width: 4.375rem;
+    }
+
+    .nav-side ul li img{
+        width: 70%;
+        
+    }
+
+    .header-bottom{
+        display: none;
+    }
+
+    .main-side{
+        width: calc(100vw - 4.375rem);
+        
+    }
+
+
+}
